@@ -8,6 +8,7 @@ namespace ConsoleApp1
 {
     class Square
     {
+        int square = 2;
         public Square(int size)
         {
             arr = new int[size];
@@ -23,7 +24,7 @@ namespace ConsoleApp1
             set
             {
 
-                double a= Math.Pow(value , 2);
+                double a= Math.Pow(value ,square );
 
                 arr[index] = (int)a;
                 
